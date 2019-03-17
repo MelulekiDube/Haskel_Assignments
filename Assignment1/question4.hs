@@ -10,4 +10,4 @@ safetail2 arr | null arr = arr | otherwise = tail arr
 
 --pattern matchin
 safetail3 [] = []
-safetail3 (x:xs) = xs
+safetail3 xs = tail xs
